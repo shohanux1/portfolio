@@ -1,37 +1,172 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Shohan - Portfolio Website
 
-## Getting Started
+A modern, responsive portfolio website showcasing web development skills and projects.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Modern Design**: Clean and professional UI with smooth animations
+- **Responsive Layout**: Optimized for all devices (mobile, tablet, desktop)
+- **Smooth Scrolling**: Navigation with smooth scroll to sections
+- **Component-Based**: Built with reusable React components
+- **Performance Optimized**: Next.js Image optimization and best practices
+- **SEO Ready**: Meta tags and structured data for better search visibility
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 15.5.6
+- **Frontend**: React 19.1.0
+- **Styling**: Tailwind CSS v4
+- **Typography**: Custom Otterco font family
+- **Icons**: React Icons
+- **Language**: TypeScript
+- **Development**: ESLint for code quality
+
+## 📁 Project Structure
+
+```
+shohan/
+├── app/
+│   ├── components/           # Reusable UI components
+│   │   ├── Header.tsx       # Navigation header
+│   │   ├── Hero.tsx         # Hero section with profile
+│   │   ├── CompanyLogos.tsx # Infinite scrolling logos
+│   │   ├── Services.tsx     # Services grid section
+│   │   ├── About.tsx        # About section with timeline
+│   │   ├── Portfolio.tsx    # Project showcase grid
+│   │   ├── Contact.tsx      # Contact section
+│   │   └── index.ts         # Component exports
+│   ├── globals.css          # Global styles and fonts
+│   ├── layout.tsx           # Root layout with metadata
+│   └── page.tsx             # Home page
+├── public/
+│   ├── fonts/               # Custom Otterco font files
+│   ├── icon/                # Service icons
+│   ├── icon-sample/         # Project icons
+│   ├── company-logo/        # Company logos
+│   └── profile.jpg          # Profile image
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Sections
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Header
+- Responsive navigation with smooth scroll links
+- Email contact and CV download buttons
+- Social media icons for mobile
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Hero
+- Profile image with animated greeting button
+- Gradient headline text
+- Call-to-action button
 
-## Learn More
+### Company Logos
+- Infinite scrolling animation
+- Responsive height adjustments
 
-To learn more about Next.js, take a look at the following resources:
+### Services
+- 4-column grid (2x2 on mobile)
+- UX/UI Design, Web Development, Frontend, Backend
+- Service icons with descriptions
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### About
+- Experience badge and timeline
+- Work history with border styling
+- Resume download section
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Portfolio
+- 8 project cards in responsive grid
+- Technology stack tags
+- Project descriptions and view links
 
-## Deploy on Vercel
+### Contact
+- Contact form section
+- Social media links
+- Footer navigation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚀 Getting Started
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# portfolio
+### Prerequisites
+- Node.js 18+
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd shohan
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Run the development server:
+```bash
+npm run dev
+```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 📱 Responsive Design
+
+The website is fully responsive with breakpoints:
+- **Mobile**: < 768px
+- **Desktop**: ≥ 768px
+
+Features mobile-specific optimizations:
+- Simplified navigation with social icons
+- Adjusted spacing and typography
+- Touch-friendly button sizes
+- Optimized image sizes
+
+## ✨ Key Features
+
+### Smooth Scrolling
+Implemented CSS `scroll-behavior: smooth` with proper scroll padding for fixed header.
+
+### Custom Fonts
+- Otterco Regular (400)
+- Otterco Medium (500)
+- Otterco Display Medium (500)
+- Otterco Light (300)
+
+### Animations
+- Infinite scrolling company logos
+- Bouncing greeting button
+- Smooth hover transitions
+
+### Performance
+- Next.js Image optimization
+- Proper image sizing and formats
+- Component-based architecture
+- CSS custom properties for theming
+
+## 🎨 Design System
+
+### Colors
+- **Primary**: #F1F0EF
+- **Secondary**: #373737
+- **Border**: #ECEBEA
+- **Background**: #f6f5f4
+
+### Typography
+- **Headings**: Otterco Display Medium
+- **Body**: Otterco Regular
+- **Light Text**: Otterco Light
+
+## 📄 License
+
+This project is for portfolio purposes. All rights reserved.
+
+## 📞 Contact
+
+**Shohan Rahman**
+- Email: shohanurrahmandev@gmail.com
+- GitHub: [Your GitHub Profile]
+- LinkedIn: [Your LinkedIn Profile]
+
+---
+
+Built with ❤️ using Next.js and Tailwind CSS
