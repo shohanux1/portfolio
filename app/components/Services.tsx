@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Services = () => {
   return (
-    <section id="services" className="flex flex-col items-center justify-center py-12 md:py-20 -z-10" >
+    <section id="services" className="flex flex-col items-center justify-center py-12 md:py-20 relative z-20" >
       <div className="max-w-6xl w-full px-3 md:px-6">
         <div className="text-center">
           <h2
@@ -16,7 +16,7 @@ const Services = () => {
             Collaborate with brands and agencies to create impactful results.
           </h2>
           <div className="relative mb-20">
-            <div className="w-full max-w-[972px] h-[1px] mx-auto" style={{backgroundColor: '#ecebea'}}></div>
+            <div className="w-full max-w-[972px] h-[1px] mx-auto" style={{backgroundColor: '#d0cfce'}}></div>
             <button
               className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[125px] h-12 bg-white border border-border rounded-[60px] px-12 py-6 flex items-center justify-center gap-3 -rotate-12"
               style={{boxShadow: '0 20px 10px #ecebea66'}}

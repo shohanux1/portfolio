@@ -3,7 +3,9 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <section id="hero" className="h-[660px] md:h-[742px] flex items-center justify-center border-b border-border rounded-b-[80px] md:rounded-b-[120px] relative z-20"  style={{backgroundColor: '#f6f5f4'}}>
+    <section id="hero" className="h-[660px] md:h-[742px] flex items-center justify-center border-b border-border rounded-b-[80px] md:rounded-b-[120px] relative z-20 overflow-hidden"  style={{backgroundColor: '#f6f5f4'}}>
+      {/* Noise Effect */}
+      <div className="noise-bg-hero" />
       <div className="max-w-6xl w-full px-6 flex flex-col items-center justify-center gap-[10px] mt-30 md:mt-10">
         <div className="relative">
           <div className="w-[128px] h-[128px] rounded-full flex items-center justify-center overflow-hidden" style={{background: 'linear-gradient(rgb(255, 255, 254) 0%, rgba(255, 255, 254, 0) 100%)'}}>
