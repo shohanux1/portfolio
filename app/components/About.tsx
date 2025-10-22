@@ -32,10 +32,13 @@ const About = () => {
                 More about me
               </h3>
               <p className="font-otterco-light text-[14px] leading-relaxed mb-6" style={{color: 'rgb(42, 42, 42)'}}>
-                I&apos;m Jonathan Meelo, a product designer based in London. I&apos;m very passionate about the work that I do every day.
+                I&apos;m Shohanur Rahman, a full stack developer with 3 years of experience based in Bangladesh. I&apos;m very passionate about creating modern web applications and digital solutions that make a difference.
+              </p>
+              <p className="font-otterco-light text-[14px] leading-relaxed mb-6" style={{color: 'rgb(42, 42, 42)'}}>
+                As a full stack developer, I specialize in both frontend and backend technologies, building end-to-end web applications that are scalable, performant, and user-friendly. My expertise spans across modern JavaScript frameworks, server-side technologies, and database management.
               </p>
               <p className="font-otterco-light text-[14px] leading-relaxed" style={{color: 'rgb(42, 42, 42)'}}>
-                My journey in this dynamic and ever-evolving field has been a testament to my passion for crafting meaningful user experiences, leveraging technologies, and fearlessly pushing the boundaries of digital creativity.
+                My journey in this dynamic and ever-evolving field has been a testament to my passion for crafting meaningful user experiences, leveraging cutting-edge technologies, and fearlessly pushing the boundaries of digital creativity.
               </p>
             </div>
 
