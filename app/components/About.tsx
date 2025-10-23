@@ -65,7 +65,7 @@ const About = () => {
                 {/* Experience 2 - TrueHub */}
                 <div className="border-l-2 border-border pl-4">
                   <div className="font-otterco text-[12px] mb-1" style={{color: 'rgb(42, 42, 42)'}}>
-                    MAR 2022 - NOV 2024
+                    MAR 2022 - MAY 2023
                   </div>
                   <h4 className="font-otterco-display text-[14px] mb-2" style={{color: 'rgb(36, 36, 36)'}}>
                     Full Stack Developer - TrueHub Investment Platform
@@ -78,7 +78,7 @@ const About = () => {
                 {/* Experience 3 - RoofSilo */}
                 <div className="border-l-2 border-border pl-4">
                   <div className="font-otterco text-[12px] mb-1" style={{color: 'rgb(42, 42, 42)'}}>
-                    JUN 2023 - MAR 2024
+                    JUN 2023 - DEC 2023
                   </div>
                   <h4 className="font-otterco-display text-[14px] mb-2" style={{color: 'rgb(36, 36, 36)'}}>
                     Mobile Application Developer - RoofSilo Mobile CRM
@@ -91,7 +91,7 @@ const About = () => {
                 {/* Experience 4 - Early Career */}
                 <div className="border-l-2 border-border pl-4">
                   <div className="font-otterco text-[12px] mb-1" style={{color: 'rgb(42, 42, 42)'}}>
-                    AUG 2021 - MAY 2023
+                    AUG 2021 - FEB 2022
                   </div>
                   <h4 className="font-otterco-display text-[14px] mb-2" style={{color: 'rgb(36, 36, 36)'}}>
                     Full Stack Developer - SwiftPOS System
