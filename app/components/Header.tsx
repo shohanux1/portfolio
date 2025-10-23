@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa'
+import CopyEmailButton from './CopyEmailButton'
 
 const Header = () => {
   return (
@@ -11,28 +12,35 @@ const Header = () => {
           <div className="hidden md:flex items-center gap-[10px]">
             <div className="bg-primary rounded-[50px] border border-border flex items-center gap-[10px]" style={{padding: '2px', paddingLeft: '16px'}}>
               <span className="font-otterco text-secondary text-[12px]">shohanurrahmandev@gmail.com</span>
-              <button className="px-6 py-2 rounded-[50px] bg-white font-otterco-display font-medium text-secondary text-[14px]">
+              <CopyEmailButton
+                email="shohanurrahmandev@gmail.com"
+                className="px-6 py-2 rounded-[50px] bg-white font-otterco-display font-medium text-secondary text-[14px] hover:bg-gray-50 transition-colors"
+              >
                 Copy
-              </button>
+              </CopyEmailButton>
             </div>
             <div className="bg-primary rounded-[50px] border border-border" style={{padding: '2px'}}>
-              <button className="px-6 py-2 rounded-[50px] bg-white font-otterco-display font-medium text-secondary text-[14px]">
+              <a href="/Shohanur Rahman - Full Stack Web Developer.pdf" target="_blank" rel="noopener noreferrer" className="px-6 py-2 rounded-[50px] bg-white font-otterco-display font-medium text-secondary text-[14px] inline-flex items-center justify-center hover:bg-gray-50 transition-colors">
                 CV
-              </button>
+              </a>
             </div>
           </div>
 
           {/* Mobile: Email + CV buttons only */}
           <div className="flex md:hidden items-center gap-[10px]">
             <div className="bg-primary rounded-[50px] border border-border" style={{padding: '2px'}}>
-              <button className="px-6 py-2 rounded-[50px] font-otterco-display font-medium text-white text-[14px]" style={{backgroundColor: 'rgb(36, 36, 36)'}}>
+              <CopyEmailButton
+                email="shohanurrahmandev@gmail.com"
+                className="px-6 py-2 rounded-[50px] font-otterco-display font-medium text-white text-[14px] hover:opacity-90 transition-opacity"
+                style={{backgroundColor: 'rgb(36, 36, 36)'}}
+              >
                 Email
-              </button>
+              </CopyEmailButton>
             </div>
             <div className="bg-primary rounded-[50px] border border-border" style={{padding: '2px'}}>
-              <button className="px-6 py-2 rounded-[50px] bg-white font-otterco-display font-medium text-secondary text-[14px]">
+              <a href="/Shohanur Rahman - Full Stack Web Developer.pdf" target="_blank" rel="noopener noreferrer" className="px-6 py-2 rounded-[50px] bg-white font-otterco-display font-medium text-secondary text-[14px] inline-flex items-center justify-center hover:bg-gray-50 transition-colors">
                 CV
-              </button>
+              </a>
             </div>
           </div>
         </div>

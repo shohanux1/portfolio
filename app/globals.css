@@ -132,7 +132,7 @@ body {
   background-repeat: repeat;
   animation: bg-animation .2s infinite;
   opacity: .9;
-  z-index: 1;
+  z-index: 0;
   visibility: visible;
   pointer-events: none;
   display: none;

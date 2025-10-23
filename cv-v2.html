@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shohanur Rahman - Full Stack Web Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'roboto': ['Roboto', 'sans-serif'],
+                    },
+                    fontWeight: {
+                        'light': '300',
+                        'regular': '400',
+                        'medium': '500',
+                    },
+                    colors: {
+                        'light-black': '#374151',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @media print {
+            * { margin: 0; padding: 0; }
+            body {
+                -webkit-print-color-adjust: exact;
+                margin: 0;
+                padding: 0;
+                background: white;
+            }
+            .cv-container {
+                box-shadow: none !important;
+                margin: 0 !important;
+                padding: 10mm !important;
+                width: 100% !important;
+                max-width: none !important;
+                min-height: auto !important;
+                height: auto !important;
+                overflow: hidden !important;
+            }
+            .no-print { display: none; }
+            @page {
+                margin: 8mm;
+                size: A4;
+                overflow: hidden;
+            }
+        }
+        .cv-container {
+            width: 210mm;
+            min-height: 297mm;
+            font-size: 9pt;
+            line-height: 1.2;
+        }
+    </style>
+</head>
+<body class="font-roboto bg-gray-50">
+    <div class="cv-container mx-auto bg-white shadow-lg p-8">
+        <!-- Header Section -->
+        <header class="mb-6 pb-4 border-b border-gray-200">
+            <div class="text-center">
+                <h1 class="font-medium text-light-black text-base mb-1">Shohanur Rahman</h1>
+                <h2 class="text-light-black font-light text-sm mb-2">Full Stack Web Developer</h2>
+                <div class="flex flex-wrap justify-center gap-x-2 text-xs text-light-black font-light">
+                    <span>Kushtia, BD</span>
+                    <span>|</span>
+                    <span>shohanurrahmandev@gmail.com</span>
+                    <span>|</span>
+                    <a href="https://www.linkedin.com/in/md-shohanur-rahman-3942b8185/" class="text-light-black underline">LinkedIn</a>
+                    <span>|</span>
+                    <a href="https://portfolio-amber-sigma-51.vercel.app/" class="text-light-black underline">Portfolio</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Summary Section -->
+        <section class="mb-6">
+            <p class="text-light-black font-light leading-relaxed text-justify">
+                Motivated Full Stack Web Developer with hands-on experience in building responsive, user-focused web applications and solutions. Specializing in end-to-end development processes and scalable architecture. Adept at collaborating with teams, troubleshooting issues, and refining functionality based on performance data and user feedback to enhance usability and system efficiency.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="mb-4">
+            <h3 class="text-lg font-medium text-light-black mb-2 uppercase tracking-wide border-b border-gray-200 pb-1">Skills & Competencies</h3>
+            <div class="grid grid-cols-1 gap-3">
+                <div>
+                    <span class="font-medium text-light-black">Technical Tools:</span>
+                    <span class="text-light-black font-light text-sm leading-relaxed"> HTML / CSS, JavaScript, React, React Native, Next.js, Tailwind CSS, MongoDB, PostgreSQL, TypeScript, Node.js, Express.js, Supabase, Git & GitHub</span>
+                </div>
+                <div>
+                    <span class="font-medium text-light-black">Competencies:</span>
+                    <span class="text-light-black font-light text-sm leading-relaxed"> Responsive Design, API Integration, CRUD Operations, Authentication, Database Management, Debugging, Deployment, Version Control, Mobile App Development, Cross-Platform UI Design, Real-Time Data Handling, State Management, FinTech Development, Gaming Platform Development, Enterprise Architecture</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="mb-4">
+            <h3 class="text-lg font-medium text-light-black mb-2 uppercase tracking-wide border-b border-gray-200 pb-1">Experience</h3>
+
+            <!-- BAJIKAR -->
+            <div class="mb-4">
+                <div class="flex justify-between items-start mb-2">
+                    <h4 class="font-medium text-light-black text-sm">Frontend Developer | BAJIKAR - Premium Casino & Sports Betting Platform</h4>
+                    <span class="text-xs text-light-black font-light font-medium whitespace-nowrap">January 2024 – December 2024</span>
+                </div>
+                <p class="text-light-black font-light text-xs italic mb-2">
+                    Developed frontend of enterprise-grade online casino platform with 6,300+ games, live dealers, and cryptocurrency integration.
+                </p>
+                <ul class="text-xs text-light-black font-light space-y-1 pl-4">
+                    <li class="flex items-start gap-2">
+                        <span class="text-light-black mt-1">•</span>
+                        <span>Built responsive UI using Next.js 15 and React 19 with TanStack React Query for state management.</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-light-black mt-1">•</span>
+                        <span>Integrated multi-currency and cryptocurrency payment interfaces with KYC compliance workflows.</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-light-black mt-1">•</span>
+                        <span>Implemented gaming UI for live dealer rooms and custom BAJIKAR Originals with real-time features.</span>
+                    </li>
+                </ul>
+                <p class="text-xs text-light-black font-light mt-2">
+                    <span class="font-medium">Highlight Skills:</span> Next.js 15 | React 19 | TypeScript 5 | TanStack React Query | Framer Motion | Multi-Currency Systems | Cryptocurrency Integration | Gaming Platform Architecture
+                </p>
+            </div>
+
+            <!-- TrueHub -->
+            <div class="mb-4">
+                <div class="flex justify-between items-start mb-2">
+                    <h4 class="font-medium text-light-black text-sm">Full Stack Developer | TrueHub - Cryptocurrency Investment Platform</h4>
+                    <span class="text-xs text-light-black font-light font-medium whitespace-nowrap">March 2022 – November 2024</span>
+                </div>
+                <p class="text-light-black font-light text-xs italic mb-2">
+                    Built cryptocurrency investment platform with 8-tier packages, multi-level referral system, and multi-crypto wallet support.
+                </p>
+                <ul class="text-xs text-light-black font-light space-y-1 pl-4">
+                    <li class="flex items-start gap-2">
+                        <span class="text-light-black mt-1">•</span>
+                        <span>Developed full-stack architecture using Next.js 15 (Vercel) and Node.js backend (DigitalOcean) with MongoDB.</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-light-black mt-1">•</span>
+                        <span>Implemented multi-cryptocurrency support (Bitcoin, Ethereum, USDT, TON, BNB, Solana) with automated earnings.</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-light-black mt-1">•</span>
+                        <span>Built email automation system with Resend for investment confirmations and withdrawal processing.</span>
+                    </li>
+                </ul>
+                <p class="text-xs text-light-black font-light mt-2">
+                    <span class="font-medium">Highlight Skills:</span> Next.js 15 | Node.js | MongoDB | Distributed Deployment | Cryptocurrency Integration | Email Automation | KYC Compliance | Multi-Level Referral Systems
+                </p>
+            </div>
+
+            <!-- RoofSilo -->
+            <div class="mb-4">
+                <div class="flex justify-between items-start mb-2">
+                    <h4 class="font-medium text-light-black text-sm">Mobile Application Developer | RoofSilo Mobile CRM</h4>
+                    <span class="text-xs text-light-black font-light font-medium whitespace-nowrap">June 2023 – March 2024</span>
+                </div>
+                <p class="text-light-black font-light text-xs italic mb-2">
+                    Built React Native CRM mobile app for roofing companies with real-time messaging, calendar sync, and business analytics.
+                </p>
+                <ul class="text-xs text-light-black font-light space-y-1 pl-4">
+                    <li class="flex items-start gap-2">
+                        <span class="text-light-black mt-1">•</span>
+                        <span>Developed cross-platform app using React Native with Expo SDK for SMS, email, and Facebook messaging.</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-light-black mt-1">•</span>
+                        <span>Integrated Google Calendar sync, appointment scheduling, and KPI tracking with performance visualization.</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-light-black mt-1">•</span>
+                        <span>Implemented Zustand state management and React Query with Convex backend and Clerk authentication.</span>
+                    </li>
+                </ul>
+                <p class="text-xs text-light-black font-light mt-2">
+                    <span class="font-medium">Highlight Skills:</span> React Native | Expo SDK | TypeScript | Zustand | React Query | Convex | Real-Time Messaging | Calendar Integration | Mobile UI/UX
+                </p>
+            </div>
+
+            <!-- SwiftPOS -->
+            <div class="mb-4">
+                <div class="flex justify-between items-start mb-2">
+                    <h4 class="font-medium text-light-black text-sm">Full Stack Developer | SwiftPOS - Comprehensive Point of Sale System</h4>
+                    <span class="text-xs text-light-black font-light font-medium whitespace-nowrap">August 2021 – May 2023</span>
+                </div>
+                <p class="text-light-black font-light text-xs italic mb-2">
+                    Developed comprehensive POS system with real-time inventory management, barcode scanning, and multi-terminal synchronization.
+                </p>
+                <ul class="text-xs text-light-black font-light space-y-1 pl-4">
+                    <li class="flex items-start gap-2">
+                        <span class="text-light-black mt-1">•</span>
+                        <span>Built React Native app with Expo SDK for cart management, stock validation, and digital receipts.</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-light-black mt-1">•</span>
+                        <span>Implemented barcode scanning, real-time inventory tracking, and automated low stock alerts.</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-light-black mt-1">•</span>
+                        <span>Designed multi-tenant PostgreSQL architecture with Docker and Socket.io for real-time sync.</span>
+                    </li>
+                </ul>
+                <p class="text-xs text-light-black font-light mt-2">
+                    <span class="font-medium">Highlight Skills:</span> React Native | Expo SDK | TypeScript (24k+ lines) | Supabase | PostgreSQL | Docker | Socket.io | Barcode Integration | Multi-Tenant Architecture
+                </p>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section>
+            <h3 class="text-lg font-medium text-light-black mb-3 uppercase tracking-wide border-b border-gray-200 pb-1">Education</h3>
+            <div class="space-y-3">
+                <div class="mb-3">
+                    <div class="flex justify-between items-start mb-1">
+                        <h4 class="font-medium text-light-black text-sm">Full Stack Web Development Certificate</h4>
+                        <span class="text-xs text-light-black font-light font-medium whitespace-nowrap">2023</span>
+                    </div>
+                    <p class="text-light-black font-light text-xs">W3Schools</p>
+                </div>
+                <div class="mb-3">
+                    <div class="flex justify-between items-start mb-1">
+                        <h4 class="font-medium text-light-black text-sm">Bachelor's in Philosophy (Honours, 3rd Year)</h4>
+                        <span class="text-xs text-light-black font-light font-medium whitespace-nowrap">2020 - 2024</span>
+                    </div>
+                    <p class="text-light-black font-light text-xs">Kushtia Islamia College</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

@@ -32,13 +32,13 @@ const About = () => {
                 More about me
               </h3>
               <p className="font-otterco-light text-[14px] leading-relaxed mb-6" style={{color: 'rgb(42, 42, 42)'}}>
-                I&apos;m Shohanur Rahman, a full stack developer with 3 years of experience based in Bangladesh. I&apos;m very passionate about creating modern web applications and digital solutions that make a difference.
+                I&apos;m Shohanur Rahman, a professional fullstack web developer with more than 3 years of experience. I&apos;m passionate about creating modern web and mobile applications that deliver exceptional user experiences and solve real-world problems.
               </p>
               <p className="font-otterco-light text-[14px] leading-relaxed mb-6" style={{color: 'rgb(42, 42, 42)'}}>
-                As a full stack developer, I specialize in both frontend and backend technologies, building end-to-end web applications that are scalable, performant, and user-friendly. My expertise spans across modern JavaScript frameworks, server-side technologies, and database management.
+                As a fullstack developer, I&apos;m capable of building anything in web development - from responsive frontend interfaces to robust backend systems. My expertise extends to mobile development with React Native, where I&apos;ve built many successful projects across different platforms.
               </p>
               <p className="font-otterco-light text-[14px] leading-relaxed" style={{color: 'rgb(42, 42, 42)'}}>
-                My journey in this dynamic and ever-evolving field has been a testament to my passion for crafting meaningful user experiences, leveraging cutting-edge technologies, and fearlessly pushing the boundaries of digital creativity.
+                With a proven track record of delivering scalable solutions, I specialize in modern JavaScript frameworks, full-stack architectures, and cross-platform mobile applications. My commitment to quality code and innovative solutions drives every project I undertake.
               </p>
             </div>
 
@@ -49,42 +49,55 @@ const About = () => {
               </h3>
 
               <div className="space-y-4 md:space-y-6">
-                {/* Experience 1 */}
+                {/* Experience 1 - BAJIKAR */}
                 <div className="border-l-2 border-border pl-4">
                   <div className="font-otterco text-[12px] mb-1" style={{color: 'rgb(42, 42, 42)'}}>
-                    NOV 2017 - PRESENT
+                    JAN 2024 - DEC 2024
                   </div>
                   <h4 className="font-otterco-display text-[14px] mb-2" style={{color: 'rgb(36, 36, 36)'}}>
-                    Creative Director at Malory House
+                    Frontend Developer - BAJIKAR Casino Platform
                   </h4>
                   <p className="font-otterco-light text-[12px] leading-relaxed" style={{color: 'rgb(42, 42, 42)'}}>
-                    Led team in crafting brand experiences and delivering digital solutions.
+                    Built enterprise-grade online casino platform with 6,300+ games, live dealer rooms, and cryptocurrency integration using Next.js 15 and React 19.
                   </p>
                 </div>
 
-                {/* Experience 2 */}
+                {/* Experience 2 - TrueHub */}
                 <div className="border-l-2 border-border pl-4">
                   <div className="font-otterco text-[12px] mb-1" style={{color: 'rgb(42, 42, 42)'}}>
-                    SEP 2015 - APR 2017
+                    MAR 2022 - NOV 2024
                   </div>
                   <h4 className="font-otterco-display text-[14px] mb-2" style={{color: 'rgb(36, 36, 36)'}}>
-                    Senior Developer at Longwave Studio
+                    Full Stack Developer - TrueHub Investment Platform
                   </h4>
                   <p className="font-otterco-light text-[12px] leading-relaxed" style={{color: 'rgb(42, 42, 42)'}}>
-                    Collaborated with teams to optimize performance and enhance UX.
+                    Developed comprehensive cryptocurrency investment platform with real-time analytics, multi-language support, and advanced trading features.
                   </p>
                 </div>
 
-                {/* Experience 3 */}
+                {/* Experience 3 - RoofSilo */}
                 <div className="border-l-2 border-border pl-4">
                   <div className="font-otterco text-[12px] mb-1" style={{color: 'rgb(42, 42, 42)'}}>
-                    MAY 2015 - SEP 2015
+                    JUN 2023 - MAR 2024
                   </div>
                   <h4 className="font-otterco-display text-[14px] mb-2" style={{color: 'rgb(36, 36, 36)'}}>
-                    Junior Developer at Webpaint Media
+                    Mobile Application Developer - RoofSilo Mobile CRM
                   </h4>
                   <p className="font-otterco-light text-[12px] leading-relaxed" style={{color: 'rgb(42, 42, 42)'}}>
-                    Assisted in front-end development and UI enhancements.
+                    Created cross-platform mobile CRM application for roofing contractors with lead management, photo documentation, and offline capabilities.
+                  </p>
+                </div>
+
+                {/* Experience 4 - Early Career */}
+                <div className="border-l-2 border-border pl-4">
+                  <div className="font-otterco text-[12px] mb-1" style={{color: 'rgb(42, 42, 42)'}}>
+                    AUG 2021 - MAY 2023
+                  </div>
+                  <h4 className="font-otterco-display text-[14px] mb-2" style={{color: 'rgb(36, 36, 36)'}}>
+                    Full Stack Developer - SwiftPOS System
+                  </h4>
+                  <p className="font-otterco-light text-[12px] leading-relaxed" style={{color: 'rgb(42, 42, 42)'}}>
+                    Built comprehensive Point of Sale system with real-time inventory management, barcode scanning, and multi-terminal synchronization using React Native and PostgreSQL.
                   </p>
                 </div>
               </div>
@@ -97,9 +110,9 @@ const About = () => {
           <p className="font-otterco-light text-[14px] mb-6" style={{color: 'rgb(42, 42, 42)'}}>
             Ready to work together? Let&apos;s create something amazing.
           </p>
-          <button className="font-otterco text-[14px] underline hover:no-underline transition-all" style={{color: 'rgb(36, 36, 36)'}}>
+          <a href="/Shohanur Rahman - Full Stack Web Developer.pdf" target="_blank" rel="noopener noreferrer" className="font-otterco text-[14px] underline hover:no-underline transition-all inline-block" style={{color: 'rgb(36, 36, 36)'}}>
             Download my resume →
-          </button>
+          </a>
         </div>
 
       </div>
