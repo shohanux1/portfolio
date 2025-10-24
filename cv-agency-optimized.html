@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shohanur Rahman - Full Stack Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'inter': ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        'primary': '#1e293b',
+                        'secondary': '#475569',
+                        'accent': '#3b82f6',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @media print {
+            * { margin: 0; padding: 0; }
+            body {
+                -webkit-print-color-adjust: exact;
+                margin: 0;
+                padding: 0;
+                background: white;
+            }
+            .cv-container {
+                box-shadow: none !important;
+                margin: 0 !important;
+                padding: 8mm !important;
+                width: 100% !important;
+                max-width: none !important;
+                min-height: auto !important;
+                height: auto !important;
+            }
+            .no-print { display: none; }
+            @page {
+                margin: 6mm;
+                size: A4;
+            }
+        }
+        .cv-container {
+            width: 210mm;
+            min-height: 297mm;
+            font-size: 9.5pt;
+            line-height: 1.3;
+        }
+        .tech-badge {
+            @apply inline-block px-2 py-0.5 bg-gray-100 text-gray-700 rounded text-xs font-medium mr-1 mb-1;
+        }
+    </style>
+</head>
+<body class="font-inter bg-gray-50">
+    <div class="cv-container mx-auto bg-white shadow-lg p-6">
+        <!-- Header Section -->
+        <header class="mb-4">
+            <div class="text-center">
+                <h1 class="font-bold text-primary text-xl mb-1">Shohanur Rahman</h1>
+                <h2 class="text-accent font-semibold text-base mb-2">Full Stack Developer</h2>
+                <div class="flex flex-wrap justify-center gap-x-3 text-sm text-secondary">
+                    <span>Kushtia, Bangladesh</span>
+                    <span>•</span>
+                    <span>shohanurrahmandev@gmail.com</span>
+                    <span>•</span>
+                    <span>+880 1740-486802</span>
+                </div>
+                <div class="flex flex-wrap justify-center gap-x-4 text-sm mt-2">
+                    <a href="https://www.linkedin.com/in/md-shohanur-rahman-3942b8185/" class="text-accent hover:underline">LinkedIn</a>
+                    <a href="https://portfolio-amber-sigma-51.vercel.app/" class="text-accent hover:underline">Portfolio</a>
+                    <a href="https://github.com/shohanux1" class="text-accent hover:underline">GitHub</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Professional Summary -->
+        <section class="mb-4 bg-blue-50 p-3 rounded-lg">
+            <p class="text-secondary leading-snug text-xs">
+                <strong>3+ years</strong> building scalable applications for <strong>FinTech, Gaming, and SaaS</strong>.
+                Specialized in <strong>React/Next.js/TypeScript</strong> with <strong>100K+ daily active users</strong> experience.
+                Strong background in <strong>testing (Jest, RTL)</strong>, <strong>API design</strong>, and <strong>agile teams</strong>.
+                Available for remote/hybrid positions immediately.
+            </p>
+        </section>
+
+        <!-- Technical Skills -->
+        <section class="mb-4">
+            <h3 class="text-base font-semibold text-primary mb-2 border-b border-gray-300 pb-1">Technical Expertise</h3>
+            <div class="grid grid-cols-2 gap-2">
+                <div>
+                    <h4 class="font-semibold text-secondary text-sm mb-1">Frontend & Mobile</h4>
+                    <p class="text-xs text-secondary">React 19, Next.js 15, TypeScript, React Native, TailwindCSS, Jest, React Testing Library</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-secondary text-sm mb-1">Backend & Database</h4>
+                    <p class="text-xs text-secondary">Node.js, Express, MongoDB, PostgreSQL, REST/GraphQL APIs, Docker, Socket.io</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-secondary text-sm mb-1">Specialized</h4>
+                    <p class="text-xs text-secondary">Git/GitHub, CI/CD, Code Reviews, Agile/Scrum, AWS, Vercel, Testing (95% coverage)</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-secondary text-sm mb-1">Domain Expertise</h4>
+                    <p class="text-xs text-secondary">FinTech, Cryptocurrency, Gaming Platforms, Mobile CRM, POS Systems</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Experience -->
+        <section class="mb-4">
+            <h3 class="text-base font-semibold text-primary mb-2 border-b border-gray-300 pb-1">Professional Experience</h3>
+
+            <!-- BAJIKAR -->
+            <div class="mb-3 border-l-2 border-accent pl-3">
+                <div class="flex justify-between items-start mb-2">
+                    <div>
+                        <h4 class="font-semibold text-primary text-base">Frontend Developer</h4>
+                        <p class="text-secondary text-sm font-medium">BAJIKAR - Enterprise Gaming Platform</p>
+                    </div>
+                    <span class="text-xs text-secondary whitespace-nowrap">Jan 2024 – Present</span>
+                </div>
+                <ul class="text-xs text-secondary space-y-1 mt-1">
+                    <li class="flex items-start">
+                        <span class="text-accent mr-2">▸</span>
+                        <span>Led frontend development (team of 5) for <strong>$2M+ monthly revenue</strong> platform with <strong>50K+ DAU</strong></span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-accent mr-2">▸</span>
+                        <span>Improved performance by <strong>40%</strong> using Next.js 15 SSR, achieving <strong>95% Lighthouse score</strong></span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-accent mr-2">▸</span>
+                        <span>Wrote <strong>200+ unit tests</strong> (Jest/RTL) and conducted code reviews for 15+ PRs weekly</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- TrueHub -->
+            <div class="mb-3 border-l-2 border-accent pl-3">
+                <div class="flex justify-between items-start mb-2">
+                    <div>
+                        <h4 class="font-semibold text-primary text-sm">Full Stack Developer</h4>
+                        <p class="text-secondary text-xs font-medium">TrueHub - Crypto Investment Platform</p>
+                    </div>
+                    <span class="text-xs text-secondary whitespace-nowrap">Mar 2022 – May 2023</span>
+                </div>
+                <ul class="text-xs text-secondary space-y-1 mt-1">
+                    <li class="flex items-start">
+                        <span class="text-accent mr-2">▸</span>
+                        <span>Built full-stack platform handling <strong>$500K+ monthly</strong> transactions with <strong>99.9% uptime</strong></span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-accent mr-2">▸</span>
+                        <span>Designed RESTful APIs and implemented comprehensive test suite with 90% coverage</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-accent mr-2">▸</span>
+                        <span>Mentored 2 junior developers and led daily standups for team of 6</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- RoofSilo -->
+            <div class="mb-3 border-l-2 border-accent pl-3">
+                <div class="flex justify-between items-start mb-2">
+                    <div>
+                        <h4 class="font-semibold text-primary text-sm">Mobile Application Developer</h4>
+                        <p class="text-secondary text-xs font-medium">RoofSilo - Enterprise CRM Mobile App</p>
+                    </div>
+                    <span class="text-xs text-secondary whitespace-nowrap">Jun 2023 – Dec 2023</span>
+                </div>
+                <ul class="text-xs text-secondary space-y-1 mt-1">
+                    <li class="flex items-start">
+                        <span class="text-accent mr-2">▸</span>
+                        <span>Delivered cross-platform CRM app <strong>2 weeks early</strong>, achieving <strong>4.8/5 app store rating</strong></span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-accent mr-2">▸</span>
+                        <span>Collaborated with 3 backend developers using agile methodology and Git workflow</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-accent mr-2">▸</span>
+                        <span>Implemented offline-first architecture with SQLite, reducing API calls by <strong>70%</strong></span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- SwiftPOS -->
+            <div class="mb-3 border-l-2 border-accent pl-3">
+                <div class="flex justify-between items-start mb-2">
+                    <div>
+                        <h4 class="font-semibold text-primary text-sm">Full Stack Developer</h4>
+                        <p class="text-secondary text-xs font-medium">SwiftPOS - Point of Sale System</p>
+                    </div>
+                    <span class="text-xs text-secondary whitespace-nowrap">Aug 2021 – Feb 2022</span>
+                </div>
+                <ul class="text-xs text-secondary space-y-1 mt-1">
+                    <li class="flex items-start">
+                        <span class="text-accent mr-2">▸</span>
+                        <span>Developed POS handling <strong>1000+ daily transactions</strong> with <strong>24K+ lines of TypeScript</strong> (95% coverage)</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-accent mr-2">▸</span>
+                        <span>Implemented CI/CD pipeline with automated testing reducing deployment time by 60%</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-accent mr-2">▸</span>
+                        <span>Integrated barcode scanner and thermal printer SDKs for <strong>5 hardware models</strong></span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Education & Certifications -->
+        <section>
+            <h3 class="text-base font-semibold text-primary mb-2 border-b border-gray-300 pb-1">Education & Certifications</h3>
+            <div class="space-y-1">
+                <div class="flex justify-between">
+                    <div>
+                        <h4 class="font-semibold text-primary text-xs">Full Stack Web Development Certificate</h4>
+                        <p class="text-secondary text-xs">W3Schools - MERN Stack, Testing, API Design</p>
+                    </div>
+                    <span class="text-xs text-secondary">2023</span>
+                </div>
+                <div class="flex justify-between">
+                    <div>
+                        <h4 class="font-semibold text-primary text-xs">Bachelor's Degree (Philosophy) + Self-Taught Developer</h4>
+                        <p class="text-secondary text-xs">Kushtia Islamia College - Critical thinking & problem-solving foundation</p>
+                    </div>
+                    <span class="text-xs text-secondary">2020-2024</span>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
