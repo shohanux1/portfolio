@@ -50,11 +50,11 @@ export const portfolioProjects: PortfolioProject[] = [
     icon: '/icon-sample/Send-messages.svg'
   },
   {
-    id: 'classified',
-    title: 'Classified Marketplace',
-    description: 'Modern Craigslist alternative with advanced search.',
-    technologies: ['Next.js', 'MongoDB'],
-    icon: '/icon-sample/Financial-growth.svg'
+    id: 'heartbeat-dating',
+    title: 'Heartbeat Dating Platform',
+    description: 'Full-stack dating platform with real-time messaging and matching.',
+    technologies: ['Next.js 16', 'Socket.IO'],
+    icon: '/icon-sample/Send-messages.svg'
   },
   {
     id: 'github-search',

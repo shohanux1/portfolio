@@ -563,65 +563,82 @@ export const projectsData: Record<string, Project> = {
     category: 'Mobile Application',
     year: '2024'
   },
-  'classified': {
-    id: 'classified',
-    title: 'Classified Marketplace - Modern Craigslist Alternative',
-    description: 'A comprehensive classified ads marketplace platform built with Next.js and MongoDB, featuring user authentication, category-based listings, and real-time search functionality similar to Craigslist.',
-    longDescription: 'A full-featured classified marketplace that modernizes the traditional online classifieds experience. Built with cutting-edge web technologies, this platform provides users with an intuitive interface to buy, sell, and trade items across multiple categories. The application features robust authentication, advanced search capabilities, image uploads, and real-time messaging between buyers and sellers.',
-    technologies: ['Next.js 14', 'React 18', 'MongoDB', 'Tailwind CSS', 'NextAuth.js', 'Node.js'],
-    techStack: {
-      'Frontend Framework': ['Next.js 14 with App Router', 'React 18 with Server Components', 'TypeScript for type safety', 'Tailwind CSS for responsive styling'],
-      'Backend & Database': ['MongoDB with Mongoose ODM', 'Next.js API routes', 'Server-side rendering', 'Database indexing for search'],
-      'Authentication': ['NextAuth.js for secure authentication', 'Multiple provider support', 'JWT token management', 'Session handling'],
-      'File Management': ['Image upload and optimization', 'Cloudinary integration', 'Multiple image support per listing', 'Image compression'],
-      'Search & Filtering': ['Real-time search functionality', 'Category-based filtering', 'Location-based search', 'Price range filtering'],
-      'Deployment': ['Vercel hosting', 'MongoDB Atlas cloud database', 'CDN for image delivery', 'Environment configuration']
-    },
-    liveUrl: 'https://classsified.vercel.app/',
-    features: [
-      'User registration and authentication with NextAuth.js',
-      'Create, edit, and delete classified listings',
-      'Multiple image upload support for listings',
-      'Category-based organization (Electronics, Vehicles, Real Estate, Jobs, etc.)',
-      'Advanced search with filters (price, location, category)',
-      'Real-time messaging between buyers and sellers',
-      'User profile management and listing history',
-      'Responsive design for mobile and desktop',
-      'Location-based listing discovery',
-      'Favorites and saved searches functionality',
-      'Email notifications for new messages',
-      'Admin panel for content moderation',
-      'SEO-optimized listing pages',
-      'Social media sharing integration',
-      'Report and flag inappropriate content',
-      'Auto-generated sitemap for search engines'
-    ],
-    keyFeatures: {
-      'Listing Management': ['Create detailed listings with descriptions', 'Upload multiple high-quality images', 'Set pricing and contact information', 'Edit or delete existing listings', 'Listing expiration management', 'Featured listing options'],
-      'Search & Discovery': ['Advanced search with multiple filters', 'Category-based browsing', 'Location-based results', 'Price range filtering', 'Keyword search functionality', 'Recently viewed items'],
-      'User Experience': ['Intuitive user interface design', 'Mobile-responsive layout', 'Fast loading times', 'Easy navigation between categories', 'Quick contact options', 'Smooth image galleries'],
-      'Communication': ['Built-in messaging system', 'Email notifications', 'Contact seller directly', 'Message history tracking', 'Spam protection', 'Anonymous communication options'],
-      'Security & Trust': ['User verification system', 'Report and flag content', 'Secure authentication', 'Data encryption', 'Content moderation tools', 'Safe transaction guidelines'],
-      'Administration': ['Admin dashboard', 'User management', 'Content moderation', 'Analytics and reporting', 'Category management', 'System configuration']
-    },
-    challenges: 'Building a modern classified marketplace required careful consideration of user experience, security, and scalability. Key challenges included implementing efficient search functionality across large datasets, ensuring secure user communication without exposing personal information, creating an intuitive categorization system, managing image uploads and optimization, preventing spam and fraudulent listings, and maintaining fast performance while handling concurrent users.',
-    technicalHighlights: [
-      'Server-side rendering with Next.js for optimal SEO performance',
-      'MongoDB database design optimized for search and filtering',
-      'NextAuth.js integration with multiple authentication providers',
-      'Real-time search with debounced queries for performance',
-      'Image optimization and CDN integration for fast loading',
-      'Responsive design using Tailwind CSS utility classes',
-      'API routes for RESTful backend functionality',
-      'Database indexing strategies for efficient queries',
-      'File upload handling with size and format validation',
-      'Session management and secure user authentication',
-      'Environment-based configuration for development and production',
-      'Vercel deployment with automatic CI/CD pipeline'
-    ],
-    category: 'Web Application',
-    year: '2024'
+  'heartbeat-dating': {
+  id: 'heartbeat-dating',
+  title: 'Heartbeat - Modern Dating Platform with Real-Time Messaging',
+  description: 'Full-stack dating platform featuring real-time messaging, profile discovery with advanced filtering, matching system, and admin panel. Built with Next.js 16, React 19, Socket.IO, and MongoDB for a seamless dating experience.',
+  longDescription: 'Complete dating platform built from scratch with modern technologies. Features include multi-step onboarding, profile discovery with infinite scroll, advanced filtering by age and interests, real-time messaging with typing indicators, like/match system, and an admin panel for conversation management.',
+  technologies: ['Next.js 16.1.3', 'React 19.2.3', 'TypeScript 5', 'Tailwind CSS 4', 'Socket.IO 4.8.3', 'MongoDB', 'Mongoose 9.1.4', 'NextAuth.js 4.24.13'],
+  techStack: {
+    'Frontend & Core': ['Next.js 16.1.3', 'React 19.2.3', 'TypeScript 5', 'Tailwind CSS 4'],
+    'Real-Time Communication': ['Socket.IO 4.8.3 (Server & Client)', 'WebSocket with Polling Fallback', 'Room-Based Broadcasting'],
+    'Backend & Database': ['Next.js API Routes', 'MongoDB Atlas', 'Mongoose 9.1.4', 'bcryptjs 3.0.3'],
+    'Authentication': ['NextAuth.js 4.24.13', 'JWT Sessions', 'Middleware Protection'],
+    'UI/UX Libraries': ['React Icons 5.5.0', 'React Infinite Scroll 6.1.1', 'Next Image Optimization'],
+    'Deployment': ['Railway', 'Node.js 20+', 'Nixpacks', 'tsx 4.21.0']
   },
+  liveUrl: 'https://web-production-bffc4.up.railway.app',
+  features: [
+    'Multi-step user onboarding (7 steps) with visual progress',
+    'Profile discovery with infinite scroll pagination',
+    'Advanced filtering by age range and 18+ interest categories',
+    'Real-time messaging with Socket.IO WebSocket integration',
+    'Typing indicators and message read receipts',
+    'Like/unlike system with mutual match tracking',
+    'User profile management and settings',
+    'Admin panel for conversation monitoring and support',
+    'Dark mode support with responsive mobile-first design',
+    'Secure authentication with bcrypt password hashing',
+    'Optimistic UI updates for instant feedback',
+    'Auto-reconnection with exponential backoff'
+  ],
+  keyFeatures: {
+    'Real-Time Messaging': [
+      'Socket.IO with typed TypeScript events',
+      'Room-based conversation management',
+      'Typing indicators and read receipts',
+      'Instant message delivery',
+      'Auto-reconnection support'
+    ],
+    'Profile Discovery': [
+      'Infinite scroll with 12 profiles per page',
+      'Age range filtering (30-55)',
+      'Interest-based search (18 categories)',
+      'Name and location search',
+      'Online status indicators'
+    ],
+    'User Management': [
+      '7-step onboarding flow',
+      'JWT-based authentication',
+      'Profile editing and customization',
+      'Like/match system',
+      'Account deletion support'
+    ],
+    'Technical Architecture': [
+      'Custom Socket.IO HTTP server',
+      'MongoDB with optimized indexes',
+      'NextAuth middleware protection',
+      'RESTful API design',
+      'Full TypeScript coverage'
+    ]
+  },
+  challenges: 'Building a production-ready dating platform required implementing complex real-time messaging with Socket.IO, designing efficient database schemas with proper indexing for conversations and likes, creating a seamless multi-step onboarding experience, and ensuring secure authentication with protected routes.',
+  technicalHighlights: [
+    'Next.js 16 with App Router for optimal performance',
+    'React 19 with modern hooks and patterns',
+    'Custom Socket.IO server with typed events (server.mts)',
+    'MongoDB with Mongoose ODM and compound indexes',
+    'NextAuth.js with JWT sessions and middleware protection',
+    'Real-time features: typing indicators, read receipts, instant messaging',
+    'Optimistic UI updates with error rollback',
+    'Mobile-first responsive design with Tailwind CSS 4',
+    '53+ TypeScript files with full type coverage',
+    'Railway deployment with nixpacks configuration'
+  ],
+  category: 'Social Platform',
+  year: '2024-2025'
+}
+,
   'github-search': {
     id: 'github-search',
     title: 'GitHub User Search App - API Integration Project',
