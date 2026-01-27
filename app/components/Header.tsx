@@ -20,7 +20,7 @@ const Header = () => {
               </CopyEmailButton>
             </div>
             <div className="bg-primary rounded-[50px] border border-border" style={{padding: '2px'}}>
-              <a href="/Shohanur Rahman - Full Stack Web Developer.pdf" target="_blank" rel="noopener noreferrer" className="px-6 py-2 rounded-[50px] bg-white font-otterco-display font-medium text-secondary text-[14px] inline-flex items-center justify-center hover:bg-gray-50 transition-colors">
+              <a href="/Shohanur Rahman.pdf" target="_blank" rel="noopener noreferrer" className="px-6 py-2 rounded-[50px] bg-white font-otterco-display font-medium text-secondary text-[14px] inline-flex items-center justify-center hover:bg-gray-50 transition-colors">
                 CV
               </a>
             </div>
@@ -38,7 +38,7 @@ const Header = () => {
               </CopyEmailButton>
             </div>
             <div className="bg-primary rounded-[50px] border border-border" style={{padding: '2px'}}>
-              <a href="/Shohanur Rahman - Full Stack Web Developer.pdf" target="_blank" rel="noopener noreferrer" className="px-6 py-2 rounded-[50px] bg-white font-otterco-display font-medium text-secondary text-[14px] inline-flex items-center justify-center hover:bg-gray-50 transition-colors">
+              <a href="/Shohanur Rahman.pdf" target="_blank" rel="noopener noreferrer" className="px-6 py-2 rounded-[50px] bg-white font-otterco-display font-medium text-secondary text-[14px] inline-flex items-center justify-center hover:bg-gray-50 transition-colors">
                 CV
               </a>
             </div>
